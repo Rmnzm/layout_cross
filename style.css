@@ -184,3 +184,153 @@ color: #595959; #f0f0f0;
 }
 
 /*   MAIN CONTENT   */
+
+/*  ASIDE  */
+
+
+.name
+{
+    font-size: 18px;
+}
+
+.sub-menu 
+{ 
+   display: none;
+   list-style: none; 
+} 
+.name:focus ~ .sub-menu, 
+.name:active ~ .sub-menu, 
+.sub-menu:hover 
+{ 
+   display: block; 
+}
+
+.type > .sub-menu > li > div
+{
+    padding: 1em;
+}
+
+.type > .sub-menu > li > div:hover
+{
+    cursor: pointer;
+} 
+
+.type > .sub-menu > li > div > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.type > .sub-menu > li > div > a:hover
+{
+    font-weight: 700;
+}
+
+.type > .name 
+{
+    background: #f0f0f0;
+    padding: 1em;
+}
+
+.type > .name:hover
+{
+    cursor: pointer;
+}
+
+.type > .sub-menu > li > div > a 
+{
+    font-size: 18px;
+}
+
+.type > .sub-menu > li > div:hover
+{
+    border-bottom: 1px solid gray;
+}
+
+.column2 > .sale > .img 
+{
+    background: url(images/svarka.jpg);
+    background-size: cover;
+    height: 8em;
+}
+
+/*Опустить вниз надпись Скидка*/
+
+.column2 > .sale > .img > div
+{
+    padding-top: 1em;
+}
+
+.column2 > .sale > .img > div > p
+{
+    border: 1px solid red;
+    border-radius: 25px;
+    padding: 5px;
+    margin-left: 1em;
+    width: 30%;
+    color: white;
+    background-color: red;
+}
+
+.sale 
+{
+	padding: 1em;
+}
+
+.column2
+{
+	border: 1px solid #595959;
+	margin-top: 2em;
+}
+
+.column2 > h3
+{
+	padding: 0.5em 0 0 0.5em;
+}
+
+/*   TEXT SALES   */
+
+.sale > .text
+{
+    background: black;
+    border-top: 1px solid red;
+}
+
+.sale > .text > .a
+{
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.sale > .text > .a > a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.sale > .text > .a > a:hover
+{
+    text-decoration: underline;
+}
+
+/*   ALL SALES   */
+
+.column2 > .all-sales > a
+{
+    padding: 1em;
+    color: red;
+    text-decoration: none;
+}
+
+.column2 > .all-sales > a:hover
+{
+    text-decoration: underline;
+}
+
+.column2 > .all-sales
+{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+/* MAIN */
+
